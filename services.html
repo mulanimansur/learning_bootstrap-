@@ -22,7 +22,7 @@
 
     <!-- ================= HEADER START ================= -->
 
-    <nav class="navbar navbar-expand-lg bg-color">
+    <nav class="navbar navbar-expand-lg bg-color fixed-top">
 
         <div class="container-fluid">
 
@@ -30,7 +30,7 @@
             <a class="navbar-brand" href="index.html">
                 <img src="images/LOGO5.png"
                     width="100"
-                    height="100"
+                    height="80"
                     alt="Royal Event Logo">
             </a>
 
@@ -61,17 +61,12 @@
 
                     <!-- GALLERY -->
                     <li class="nav-item2">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="gallery.html">
                             <b>GALLERY</b>
                         </a>
                     </li>
 
-                    <!-- CONTACT -->
-                    <li class="nav-item3">
-                        <a class="nav-link" href="contact.html">
-                            <b>CONTACT</b>
-                        </a>
-                    </li>
+                
 
                     <!-- ABOUT -->
                     <li class="nav-item4">
@@ -82,61 +77,37 @@
 
                     <!-- SERVICES -->
                     <li class="nav-item6">
-                        <a class="nav-link" href="services.html">
+                        <a class="nav-link bg-danger" href="services.html">
                             <b>SERVICES</b>
                         </a>
                     </li>
 
                     <!-- EVENTS DROPDOWN -->
-                    <li class="nav-item5 dropdown">
+                        <li class="nav-item5 events">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <B>EVENTS</B>
+          </a>
+          <ul class="dropdown-menu bg-danger">
+            <li><a class="dropdown-item" href="gallery.html"><important>Puja decoration</important></strong></a></li>
+            <li><a class="dropdown-item" href="gallery.html">Baby Shower decoration</a></li>
+            <li><a class="dropdown-item" href="gallery.html">corporate events decoration</a></li>
+            <li><a class="dropdown-item" href="gallery.html">Anniversary decoration</a></li>
+            <li><a class="dropdown-item" href="gallery.html">birthday decoration</a></li>
+            <li><a class="dropdown-item" href="gallery.html">wedding decoration</a></li>
+             <li><a class="dropdown-item" href="gallery.html">new home decoration</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+        </li>
+         <!-- CONTACT -->
 
-                        <a class="nav-link dropdown-toggle"
-                            href="#"
-                            role="button"
-                            data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                    <li class="nav-item3">
 
-                            <b>EVENTS</b>
+                        <a class="nav-link"
+                            href="contact.html">
+
+                            <b>CONTACT</b>
 
                         </a>
-
-                        <ul class="dropdown-menu bg-danger">
-
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <strong>Puja</strong>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    Baby Shower
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    Corporate Events
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    Anniversary
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    Birthday
-                                </a>
-                            </li>
-
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-
-                        </ul>
 
                     </li>
 
@@ -160,7 +131,7 @@
 
         </div>
 
-    </nav><p></p>
+    </nav><p></p><br>
 
     <!-- ================= HEADER END ================= -->
 
@@ -172,10 +143,12 @@
         <div class="container">
 
             <!-- Services Heading -->
-            <div class="services-heading text-center mb-5">
+            <div class="services-heading bg-light text-center mb-5 mt-4">
 
-                <p>WHAT WE OFFER</p>
-
+                
+                
+              <h1></h1>
+               <br>
                 <h2>Our Services</h2>
 
                 <span>
@@ -349,16 +322,60 @@
     </section>
 
     <!-- ================= SERVICES END ================= -->
+</section>
 
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4">
+        <h3>Royal Decoration</h3>
+        <p>Making your special moments beautiful and memorable.</p>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Contact Us</h5>
+       
+                    <p>
+                        📞 +91 7972900402
+                    </p>
+
+                    <p>
+                        📧 info@royaldecor.com
+                    </p>
+
+                    <p>
+                        📍 saramkundi, washi Maharashtra
+                    </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="copyright">
+    © 2026 Royal Decoration | All Rights Reserved
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Bootstrap JavaScript -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous">
-    </script>
+
 
 </body>
 
 </html>
-```
