@@ -37,11 +37,14 @@
             
         }
         .footer {
-    background-color: #151515;
+    background-color:#151515;
     color: white;
     padding-top: 40px;
     margin-top: 50px;
+    text-decoration:none;
+    
 }
+
 
 .footer h3 {
     color: #d4af37;
@@ -56,14 +59,17 @@
 .footer p {
     color: #cccccc;
     line-height: 1.7;
+    
 }
 
 .footer a {
     display: block;
     color: #cccccc;
-    text-decoration: none;
+    text-decoration:none;
     margin-bottom: 8px;
 }
+
+
 
 .footer a:hover {
     color: #d4af37;
@@ -400,7 +406,6 @@
         .box5{
     position:fixed;
     list-style: none;
-    z-index: 15; 
     left: auto;
     right: 10px;
     margin-bottom: 100px;    
